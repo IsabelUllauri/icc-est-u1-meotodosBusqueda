@@ -1,0 +1,14 @@
+# Ignorar VS Code config
+.vscode/
+
+# Ignorar binarios
+bin/
+lib/
+
+# Ignorar archivos .class (compilados de Java)
+*.class
+
+# Ignorar todo en src excepto archivos .java
+src/*
+!src/**/*.java
+!src/*.java
