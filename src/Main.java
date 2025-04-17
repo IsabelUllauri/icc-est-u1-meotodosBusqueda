@@ -1,3 +1,4 @@
+import controllers.BusquedaPorNombre;
 import controllers.MetodosBusquedaBinaria;
 import controllers.metodosBusqueda;
 import models.Persona;
@@ -20,9 +21,13 @@ public class Main {
         MetodosBusquedaBinaria mBB= new MetodosBusquedaBinaria(personas);
         mBB.showPersonByCode();
 
-        /*
-         * 
-         */
+        
+    
+
+        BusquedaPorNombre buscador = new BusquedaPorNombre(personas);
+
+        buscador.showPersonByName();
+
     }
     
 }

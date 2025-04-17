@@ -19,4 +19,11 @@ public class ShowConsole {
     public void ShowMessage(String message){
         System.out.println(message);
     }
+
+    public String getName (){
+        System.out.print("Ingrese el nombre: ");
+        Scanner sc = new Scanner(System.in);
+        return sc.nextLine();
+
+    }
 }

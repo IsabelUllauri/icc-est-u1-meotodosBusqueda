@@ -9,6 +9,10 @@ lib/
 *.class
 
 # Ignorar todo en src excepto archivos .java
+# Ignorar todo en src/
 src/*
+
+# Pero no ignores archivos .java en src o subcarpetas
 !src/**/*.java
 !src/*.java
+

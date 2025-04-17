@@ -1,4 +1,5 @@
 package controllers;
+import javafx.beans.binding.When.StringConditionBuilder;
 import models.Persona;
 import views.ShowConsole;
 
@@ -48,16 +49,7 @@ public class MetodosBusquedaBinaria {
     }
 
 
-    private int findPersonByName(String name){
-        return -1;
-
-
-    }
-
-    public void showPersonByName(){
-        
-    }
-
+    
 }   
 
 
