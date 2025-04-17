@@ -8,11 +8,12 @@ lib/
 # Ignorar archivos .class (compilados de Java)
 *.class
 
-# Ignorar todo en src excepto archivos .java
 # Ignorar todo en src/
-src/*
 
-# Pero no ignores archivos .java en src o subcarpetas
+# No ignorar el directorio src ni subcarpetas
+!src/
+!src/**/
+
+# No ignorar archivos .java en cualquier nivel dentro de src
 !src/**/*.java
 !src/*.java
-
